@@ -4,6 +4,7 @@ import random
 
 #clicks every 15ish seconds for roughly 8 hours
 n=0
+print('Press Ctrl + C to cancel')
 while n < 2000:
     #random time to avoid detection
     time.sleep(5)
