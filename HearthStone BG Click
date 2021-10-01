@@ -11,5 +11,5 @@ while n < 2000:
     #moves to Point(x=1436, y=826) at 0.3 second speed
     pyautogui.moveTo(1436, 826, 0.3)
     pyautogui.click()    
-    print('runtime' + n 'out of 2000')
+    print('runtime' + n + 'out of 2000')
     n=n+1
